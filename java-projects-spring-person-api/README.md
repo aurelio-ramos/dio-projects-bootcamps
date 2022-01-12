@@ -24,6 +24,7 @@ Sistema para o gerenciamento de pessoas de uma empresa através de uma API REST,
     - [X] Cadastro de pessoas
     - [X] Buscar todas pessoas cadastradas
     - [X] Buscar pessoa por id
+    - [X] Remover pessoa por id
   - [ ] Relação de cada uma das operações acima com o padrão arquitetural REST, e a explicação de cada um dos conceitos REST envolvidos durante o desenvolvimento do projeto.
   - [ ] Desenvolvimento de testes unitários para validação das funcionalidades
 
