@@ -11,13 +11,23 @@
 
 ## 💻 Sobre o projeto
 
-Sistema para o gerenciamento de pessoas de uma empresa através de uma API REST, criada com o Spring Boot.
+Neste projeto foi criada uma API REST com Spring Boot para cadastro e gerenciamento de pessoas de uma organização. 
+
+Neste desafio, o desenvolvedor [Rodrigo Peleias](https://github.com/rpeleias-v1) mostrou os principais conceitos do estilo arquitetural REST envolvidos durante o desenvolvimento do projeto. Foram exibidas as seguintes ferramentas:
+- Estilo arquitetural REST;
+- Spring Boot Framework;
+- Spring Data;
+- MapStruct;
+- Spring Test;
+- Postman;
+- Sprint Test;
+- Deploy no heroku.
 
 ---
 
 ## ⚙️ Roadmap
 
-- [ ] Durante a sessão, serão desenvolvidos e abordados os seguintes tópicos:
+Durante o projeto foram desenvolvidos e abordados os seguintes tópicos:
   - [X] Setup inicial de projeto com o Spring Boot Initialzr
   - [X] Criação de modelo de dados para o mapeamento de entidades em bancos de dados
   - [X] Desenvolvimento de operações de gerenciamento de usuários (Cadastro, leitura, atualização e remoção de pessoas de um sistema).
@@ -27,6 +37,7 @@ Sistema para o gerenciamento de pessoas de uma empresa através de uma API REST,
     - [X] Remover pessoa por id
     - [X] Atualizar dados de pessoa por id
   - [ ] Desenvolvimento de testes unitários para validação das funcionalidades
+     - [X] Cadastro de pessoas (Service)
 
 ---
 ## 🚀 Como executar o projeto
@@ -50,6 +61,7 @@ Após executar o comando acima, basta apenas abrir o seguinte endereço e visual
 [http://localhost:8080/api/v1/people](http://localhost:8080/api/v1/people)
 
 Para visualizar o h2-console, lembrando que o dsn estará no log do servidor:
+
 [http://localhost:8080/h2-console/](http://localhost:8080/h2-console/)
 
 ---
